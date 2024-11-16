@@ -1,0 +1,62 @@
+# Node modules (Frontend)
+frontend/node_modules/
+
+# Build outputs (Frontend)
+frontend/build/
+frontend/dist/
+
+# Logs (Frontend y Backend)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Dependency directories
+.DS_Store
+coverage/
+
+# Environment files
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Entorno virtual en la carpeta bonniplast
+backend/bonniplast/
+
+# Cache y archivos temporales (Frontend y Backend)
+frontend/.cache/
+frontend/.eslintcache
+backend/__pycache__/
+backend/app/__pycache__/
+backend/app/models/__pycache__/
+backend/app/utils/__pycache__/
+
+# Archivos de configuración específicos de IDE
+.vscode/
+.idea/
+
+# Archivos de configuración de Python (Backend)
+backend/pyvenv.cfg
+
+# Librerías y entornos virtuales de Python (Backend)
+backend/Lib/
+backend/Include/
+backend/Scripts/
+backend/share/
+
+# CSV u otros datos temporales (si es necesario evitar subirlos)
+backend/uploads/*.csv
+
+# Archivos específicos de React (Frontend)
+frontend/public/favicon.ico
+frontend/public/logo192.png
+frontend/public/logo512.png
+frontend/public/manifest.json
+frontend/public/robots.txt
+
+# Otros archivos específicos del proyecto
+frontend/package-lock.json
+backend/requirements.txt
